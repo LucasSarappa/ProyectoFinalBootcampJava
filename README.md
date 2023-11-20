@@ -37,4 +37,3 @@ Pasos para su prueba.
  ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/e177748b-5cd6-471e-8e62-0249b4576e70)
 11. Si todo va bien, se deberá abrir una pestaña como esta que será el front de nuestro CRUD.
 ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/f3ed4f5d-3a27-4b8a-86a2-e0fb8413524b)
-
