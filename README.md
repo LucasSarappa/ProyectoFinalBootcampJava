@@ -19,8 +19,22 @@ Pasos para su prueba.
 
 ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/b6213859-8094-4fbc-b39a-830668871822)
 
-3. Antes de correr las apis, crear una base de datos. Para este proyecto utilice una base de datos MySql.
-   3.1. Abrir MySQL Workbench
-   3.2 Ir a MySQL Connections e iniciar una Local instace MySQL81
-   ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/55e8b61a-58a9-42ff-a694-ceabe221ac30)
+3. Antes de correr las apis, hay que crear la base de datos. Para este proyecto utilicé una base de datos MySql.
+   
+4. Abrir MySQL Workbench
+   
+5. Ir a MySQL Connections e iniciar una Local instace MySQL81
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/55e8b61a-58a9-42ff-a694-ceabe221ac30)
+
+6. Crear una base de datos con el nombre de fullstack
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/53221b46-3ad3-4883-81f5-20b70e85714c)
+
+7. Correr ambas apis desde el entorno de desarrollo
+   
+8. Descargar el archivo 3, el cual contiene el front
+9. Una vez descargado, abrir con visual studio code
+10. Para ejecutar la react app, abrir una nueva terminal en visual studio code y escribir el comando npm run star
+ ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/e177748b-5cd6-471e-8e62-0249b4576e70)
+11. Si todo va bien, se deberá abrir una pestaña como esta que será el front de nuestro CRUD.
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/f3ed4f5d-3a27-4b8a-86a2-e0fb8413524b)
 
