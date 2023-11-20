@@ -13,4 +13,14 @@ Pasos para su prueba.
 
  ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/646e6580-b359-4d0d-9d60-83f1ebf79b7c)
   
-2. 
+2. Una vez descargados, abrirlos ambos con el entorno de desarrollo preferido (en este caso se uso IntelliJ IDEA)
+
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/fe58a35e-85c5-48d3-abb7-d52ee6ab7ad5)
+
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/b6213859-8094-4fbc-b39a-830668871822)
+
+3. Antes de correr las apis, crear una base de datos. Para este proyecto utilice una base de datos MySql.
+   3.1. Abrir MySQL Workbench
+   3.2 Ir a MySQL Connections e iniciar una Local instace MySQL81
+   ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/55e8b61a-58a9-42ff-a694-ceabe221ac30)
+
