@@ -11,7 +11,7 @@ Pasos para su prueba.
 
 1. Descargar los archivos 1 y 2.
 
- ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/646e6580-b359-4d0d-9d60-83f1ebf79b7c)
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/6e6166e2-4ae1-43ea-9f54-a150a8d6202b)
   
 2. Una vez descargados, abrirlos ambos con el entorno de desarrollo preferido (en este caso se uso IntelliJ IDEA)
 
@@ -32,6 +32,8 @@ Pasos para su prueba.
 7. Correr ambas apis desde el entorno de desarrollo
    
 8. Descargar el archivo 3, el cual contiene el front
+![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/b387d919-9658-4efb-bf12-59c08f1fd1f9)
+
 9. Una vez descargado, abrir con visual studio code
 10. Para ejecutar la react app, abrir una nueva terminal en visual studio code y escribir el comando npm run star
  ![image](https://github.com/LucasSarappa/ProyectoFinalBootcampJava/assets/124407200/e177748b-5cd6-471e-8e62-0249b4576e70)
