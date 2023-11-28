@@ -20,22 +20,12 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private RestTemplate restTemplate; // RestTemplate para realizar solicitudes a la API de validación
 
     @PostMapping("/users")
     public ResponseEntity<Object> newUser(@Valid @RequestBody User newUser) {
         try {
-            // Antes de guardar el usuario, realizo la validación usando la API de validación mandando el dni del nuevo usuario
-            ResponseEntity<String> validationResponse = restTemplate.getForEntity("http://localhost:8081/validate/dni/" + newUser.getDni(), String.class);
-
-            if (validationResponse.getStatusCode() == HttpStatus.OK) {
-                User savedUser = userService.saveUser(newUser);
-                return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
-            } else {
-                // Manejar la respuesta de validación incorrecta
-                return new ResponseEntity<>("Invalid DNI", HttpStatus.BAD_REQUEST);
-            }
+            User savedUser = userService.saveUser(newUser);
+            return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
         } catch (DuplicateDniException e) {
             return new ResponseEntity<>(new ApiError(HttpStatus.BAD_REQUEST, e.getMessage()), HttpStatus.BAD_REQUEST);
         }
