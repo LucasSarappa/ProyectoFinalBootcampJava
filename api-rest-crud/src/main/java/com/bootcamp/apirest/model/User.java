@@ -17,17 +17,17 @@ public class User {
 
     @NotNull(message = "The first name cannot be null.")
     @NotBlank(message = "The first name cannot be blank.")
-    @Pattern(regexp = "^[a-zA-Z]+(?:\\s[a-zA-Z]+)?$", message = "The last name must contain only letters, and if there is a space, it should be followed by at least one letter.")
+    @Pattern(regexp = "^[a-zA-Z]+(\\s[a-zA-Z]+)*$", message = "The first name must contain only letters.")
     private String first_name;
 
     @NotNull(message = "The last name cannot be null.")
     @NotBlank(message = "The last name cannot be blank.")
-    @Pattern(regexp = "^[a-zA-Z]+(?:\\s[a-zA-Z]+)?$", message = "The last name must contain only letters, and if there is a space, it should be followed by at least one letter.")
+    @Pattern(regexp = "^[a-zA-Z]+(\\s[a-zA-Z]+)*$", message = "The last name must contain only letters.")
     private String last_name;
 
     @NotNull(message = "The JOB cannot be null.")
     @NotBlank(message = "The JOB cannot be blank.")
-    @Pattern(regexp = "^[a-zA-Z ]+$", message = "The last name must contain only letters and spaces.")
+    @Pattern(regexp = "^[a-zA-Z ]+$", message = "The job must contain only letters and spaces.")
     private String job;
 
 }
