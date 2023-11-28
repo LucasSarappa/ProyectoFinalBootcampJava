@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/validate")
-@CrossOrigin("http://localhost:8080")
+@CrossOrigin({"http://localhost:8080", "http://localhost:3000"})
 
 public class ValidationController {
 
@@ -17,10 +17,9 @@ public class ValidationController {
     private DniValidationService dniValidationService;
 
     @GetMapping("/dni/{dni}")
-    public ResponseEntity<String> validateDni(@PathVariable String dni) {
+    public ResponseEntity<String> validateDni(@PathVariable Long dni) {
         try {
-            dniValidationService.validateDniFormat(dni);
-            // Puedes agregar lógica adicional aquí, como verificar en la API CRUD si ya existe el DNI.
+            dniValidationService.validateDniFormat(dni.toString());
             return new ResponseEntity<>("DNI is valid", HttpStatus.OK);
         } catch (InvalidDniFormatException e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
